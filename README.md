@@ -2,6 +2,7 @@
 A simple application to add and manage your notes
 
 ##live link
+https://empora-notes.vercel.app/
 
 
 ## Description
