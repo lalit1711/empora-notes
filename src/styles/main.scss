@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+// Google fonts import
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+// Set BLogBeetle's colors
+$green: #1a8917;
+$green2: rgba(26, 137, 23, 0.61);
+$black: #000000;
+$grey: #b9b9b9;
+$grey2: #656262;
+$grey3: #494949;
+$white: #ffffff;
+$orange: #dc5034;
+$skyblue: #6cc2f2;
+$red: #fa4d4d;
+
+// Update global variables
+$font-family: "Montserrat, sans-serif";
+$grey-dark: $grey2;
+$grey-light: $grey;
+$primary: $green2;
+$light: $grey;
+$dark: $grey3;
+
+// button variables
+
+// input text variables
+$input-color: $black;
+$input-hover-color: $black;
+$input-hover-border-color: $grey;
+$input-focus-color: $grey;
+$input-focus-border-color: $grey;
+$input-focus-box-shadow-color: transparent;
+$input-radius: 0px;
+
+// label variables
+$label-color: $black;
+$label-weight: 600;
+
+// tag variables
+$tag-radius: 0px;
+
+//tabs variable
+$tabs-border-bottom-color: $grey;
+$tabs-link-color: $grey;
+$tabs-link-active-border-bottom-color: $black;
+$tabs-link-active-color: $black;
+
+// footer variable
+$footer-background-color: #171717;
+$footer-color: $white;
+$footer-padding: 40px;
+
+@import "./node_modules/bulma/bulma";
+@import "./style.scss";
+
